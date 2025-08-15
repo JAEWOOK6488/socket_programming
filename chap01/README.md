@@ -19,3 +19,34 @@ gcc hello_client.c -o hclient
 ```
 ./hclient 127.0.0.0 9190
 ```
+
+컴파일
+```
+gcc low_open.c -o lopen
+```
+
+실행
+```
+./lopen
+cat ./data.txt
+```
+
+컴파일
+```
+gcc low_read.c -o lread
+```
+
+실행
+```
+./lread
+```
+
+컴파일
+```
+gcc fd_seri.c -o fds
+```
+
+실행
+```
+./fds
+```
